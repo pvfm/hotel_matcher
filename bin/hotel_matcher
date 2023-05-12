@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'hotel_matcher'
+
+hotel_name = ARGV[0] || nil
+
+result = HotelMatcher::Hotel.find(hotel_name)
+
+# /hi/doubletree-by-hilton-amsterdam-centraal-station/8a65ed71-2c3d-343d-9d39-9e8c0211c938

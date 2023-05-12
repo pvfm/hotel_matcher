@@ -16,7 +16,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+Use ./bin/hotel_matcher "hotel_name" will return object with url from booking and holidaycheck.
 
 ## Development
 
